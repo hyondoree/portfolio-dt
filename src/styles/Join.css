@@ -1,0 +1,34 @@
+.joinContainer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.joinTitle {
+    margin-bottom: 5%;
+}
+
+.joinForm{width:75vw; display: flex; flex-direction: row;}
+.joinFormL{display: flex; flex-direction: column; 
+width:45%; margin-right: 10%;}
+.joinFormR{display: flex; flex-direction: column; width:45%;}
+
+#joinUserId{margin:0 0 7% 0;}
+#joinUserPw{margin:0 0 7% 0;}
+#joinUserMail{margin:0 0 7% 0;}
+#joinUserName{margin:0 0 7% 0;}
+#joinUserPhone{margin:0 0 7% 0;}
+#joinUserAddress{margin:0 0 7% 0;}
+
+.joinContainer input {
+    font-size: 0.75rem;
+    border-bottom: 1px solid #2B3072;
+}
+
+.joinContainer span {
+    font-size: 0.75rem;
+    color: #7a7a7a;
+}

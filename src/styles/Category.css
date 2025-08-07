@@ -1,0 +1,7 @@
+.categoryModal{position: fixed; top:7rem; left:14rem; z-index: 100; opacity: 0; transition: opacity 0.4s ease-in;}
+.categoryModal.show{opacity: 1;}
+.categoryModal p{font-size: 1.6rem; line-height: 2.3;}
+.categoryModal p:hover{font-weight: bold;}
+
+.overlay{width:100%; height:100vh; top:0; left:0; position: fixed; z-index: 50; background: rgba(255,255,255,0.8); opacity: 0; transition: opacity 0.4s ease-in;}
+.overlay.show{opacity: 1;}

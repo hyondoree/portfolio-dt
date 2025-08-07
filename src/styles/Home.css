@@ -1,0 +1,14 @@
+.mainImg{width:100%;}
+
+h4{color:#722B2B; font-size: 0.95rem;}
+.aboutSection{margin: 1% 0 0 58%; width:40%; text-align: right;}
+.aboutSection p{line-height: 1.6; font-size: 0.875rem;}
+
+.arrivalsSection{margin: 5% 2%;}
+.arrivalsGrid{display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 5%; padding: 1%; max-width: 1200px; margin:0 auto;}
+.arrivalsGrid img{width:100%; max-width: 500px;}
+
+.storeSection{text-align: right; margin:2%;}
+.mainStoreImg{padding-top: 0.5%;}
+.storeText p{font-size: 0.875rem;}
+.storeText p:nth-of-type(2){opacity: 0.8;}

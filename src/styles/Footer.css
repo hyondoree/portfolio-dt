@@ -1,0 +1,6 @@
+.footer{width:90vw; margin: 20% auto;
+ font-size: 0.7rem; display: grid;
+    grid-template-columns: 1fr 1fr 1fr; color:#9697A3;}
+
+.contact{text-align: left;}
+.copyright{text-align: right;}
