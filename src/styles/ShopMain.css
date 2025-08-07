@@ -1,0 +1,25 @@
+.shopDM{}
+.dataL{width:50%; text-align: center; padding-top: 12%; position: fixed;}
+.dataL p:nth-of-type(2){font-size: 0.8rem;}
+.dataL button{
+    padding: 0.5% 5%; margin-top: 5%; cursor:pointer;background-color: #2B3072; color:#EFEFEF;}
+.colorOpt {
+    display: flex; justify-content: center; gap: 10px; margin-top: 5%;
+}
+.colorCircle {
+    width: 25px; height: 25px; border-radius: 50%;
+    cursor: pointer; border: 1px solid #aaa;
+}
+.colorCircle.selected {
+    outline: 1px solid #2B3072; outline-offset: 2px;
+}
+
+
+.dataLd{width:50%; margin: 15% 25%; font-size: 0.8rem; color:#666;}
+
+.dataLf{width:40%; margin: 0 30%; font-size: 0.7rem; text-align: justify; color:#666;}
+
+.dataR{margin-left: 50%;width:50%;}
+.dataR img{width:100%; display: block;}
+.dataR p{text-align: center; margin-top: 5%; width:70%; margin-left: 15%;}
+

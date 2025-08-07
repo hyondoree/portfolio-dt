@@ -1,0 +1,26 @@
+.myPage{display: flex; margin-top: 7%; }
+.myPageL{width:50%; }
+.myPage h3{text-align: center; margin-bottom: 5%;}
+.editProf{width:55%; margin-left: 22.5%;}
+.myId p:nth-of-type(2){font-size: 0.75rem;
+    color: #7a7a7a;margin-bottom: 3%;
+        padding-bottom: 2%;
+        border-bottom: 1px solid #2B3072;
+        width: 100%;}
+.editProf input{font-size: 0.75rem;
+    color: #7a7a7a; margin-bottom: 3%; padding-bottom: 2%;border-bottom: 1px solid #2B3072; width:100%;}
+.mySave{ padding: 0.5% 7%; cursor: pointer;background-color: #2B3072; color:#EFEFEF; display: block; margin: 10% 37%;}
+
+.myPageR{width:50%;}
+.myPageR h3{margin-left: -15%; margin-bottom: 7%;}
+.orderDate{font-size: 0.8rem;}
+.orderItem{width:80%; height:100%;margin-right:20%; border-top: 1px solid #2B3072;border-bottom: 1px solid #2B3072; display: flex; align-items: flex-start; padding: 2% 0; position: relative;}
+.orderImg{width:35%; height:auto; margin-right: 3%; object-fit: cover;}
+.orderInfo{ width:100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; }
+.orderInfo p{font-size: 0.8rem;}
+.itemTitle{font-size: 0.875rem !important;}
+.itemP{font-weight: bold; font-size: 0.8rem;align-self: flex-end; position: absolute; bottom:3%; right:0;}
+
+.orderTotal{font-size: 0.8rem; font-weight: bold; margin-bottom: 5%; text-align: right; margin: 2% 20%;}
+
+.orderBox{position: relative;}

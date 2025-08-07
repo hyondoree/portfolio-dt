@@ -1,0 +1,12 @@
+.archiveList{font-size: 0.7rem;}
+.listBanner{width: 100%;}
+
+.listItem{display: flex; flex-direction: row; padding: 5% 0%; border-bottom: 1px solid #898787;}
+
+.listTitle{width:17.5vw; margin: 0 3%; cursor: pointer;}
+.arLiImg{display: flex; flex-direction: row; width:50vw; gap:1rem; cursor: pointer;}
+.arLiImg img{width: 20%; object-fit:cover; flex:1; height: auto;}
+
+.arLiText{width:17vw; margin-left: 4%; cursor: pointer;}
+.arLiAbout{width:20vw; text-align: center; cursor: pointer; color:#898787;}
+.arLiAbout:hover {color:#722B2B; }
